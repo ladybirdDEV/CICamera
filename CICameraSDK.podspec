@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CICameraSDK'
-  s.version          = '0.2.15'
+  s.version          = '0.2.16'
   s.summary          = 'camera and gellary mananger'
 
 # This description is used to generate tags and improve search results.
@@ -25,6 +25,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sssssunying' => 'sunying@corp-ci.com' }
   s.source           = { :git => 'https://github.com/ladybirdDEV/CICamera.git', :tag => s.version.to_s }
+
+  s.static_framework = true
 
   s.ios.deployment_target = '13.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
