@@ -12,6 +12,10 @@
 		<data>
 		p5kMdcSm1kQ29OJjvgvboKTTxyM=
 		</data>
+		<key>Headers/CICameraMarco.h</key>
+		<data>
+		FiRUb2PdgXwbsaAUDRbK0iirJ5Q=
+		</data>
 		<key>Headers/CIGalleryManager.h</key>
 		<data>
 		weVKiuR1EXHHZNlurZQWJ/fLs1I=
@@ -47,6 +51,17 @@
 			<key>hash2</key>
 			<data>
 			Niy+/kaTG3gL49ruTb7G806rF+PBiMQhEm7t8ji9810=
+			</data>
+		</dict>
+		<key>Headers/CICameraMarco.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FiRUb2PdgXwbsaAUDRbK0iirJ5Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			M9xZ9FTWUcHZqQ4ID77TO68jnbFSXEGWQN94Tar88p4=
 			</data>
 		</dict>
 		<key>Headers/CIGalleryManager.h</key>
