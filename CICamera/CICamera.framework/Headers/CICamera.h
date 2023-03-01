@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
+#if __has_include(<CICamera/CICamera.h>)
 //! Project version number for CICamera.
 FOUNDATION_EXPORT double CICameraVersionNumber;
 
@@ -17,3 +18,9 @@ FOUNDATION_EXPORT const unsigned char CICameraVersionString[];
 
 #import <CICamera/CICameraManager.h>
 #import <CICamera/CIGalleryManager.h>
+#else
+#import "CICameraManager.h"
+#import "CIGalleryManager.h"
+#endif
+
+
